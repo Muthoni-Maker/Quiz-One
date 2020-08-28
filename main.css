@@ -12,7 +12,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:25px;
     font-weight:bold;
-    padding-left:500px;
+    padding-left:600px;
     padding-top:8px;
 
 }
@@ -21,21 +21,42 @@ h1{
     height:300px;
     background-color: rgba(52, 72, 99, 0.932);
     position:relative;
-    top:-24.9px;
+    top:-42px;
 }
-h2{
+#h2{
     color:white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:30px;
+    font-size:42px;
+    text-transform:uppercase;
     padding-left:350px;
+    padding-top:100px;
+    word-spacing:2px;
+    font-weight:bold;
 
 }
-h3{
-    color:rgb(212, 248, 9);
+#h3{
+    color:rgb(248, 204, 9);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:30px;
-    padding-left:350px;
- 
+    font-size:17px;
+    padding-left:450px;
+    text-transform:uppercase;
+    position:relative;
+    top:-30px;
+    word-spacing:6px;
+    letter-spacing:7.5px;
+   
+}
+#h4{
+    color:rgb(248, 204, 9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    position:relative;
+    top:-40px;
+    padding-left:500px;
+    text-transform:uppercase;
+    word-spacing:6px;
+    letter-spacing:7.5px;
+
 }
 #about-section{
     width:1000px;
@@ -48,7 +69,7 @@ h3{
     border:1px solid white;
 }
 h4{
-    background-color:rgb(255, 217, 0);
+    background-color:rgb(248, 204, 9);
     width:1000px;
     height:100px;
     color:grey;
@@ -77,7 +98,7 @@ img{
 
 }
 h5{
-    background-color:rgb(255, 217, 0);
+    background-color:rgb(248, 204, 9);
     height:70px;
     margin-top:0px;
 }
@@ -102,7 +123,7 @@ table{
 }
 
 th{
-    background-color:rgb(255, 217, 0);
+    background-color:rgb(248, 204, 9);
     color:grey;
     text-transform:uppercase;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -125,4 +146,18 @@ td{
     margin-top:20px;
     background-color: rgba(52, 72, 99, 0.932);
     color:grey;
+}
+h6{
+    color:white;
+    font-size:20px;
+    margin-left:40px;
+    padding-top:120px;
+
+}
+ul,li{
+    color:white;
+    list-style-type: none;
+    font-size:
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
 }
